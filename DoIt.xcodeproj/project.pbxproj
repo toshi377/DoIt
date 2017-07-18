@@ -13,6 +13,7 @@
 		172D0F001F1E67D100F16992 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 172D0EFE1F1E67D100F16992 /* DoIt.xcdatamodeld */; };
 		172D0F021F1E67D100F16992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172D0F011F1E67D100F16992 /* Assets.xcassets */; };
 		172D0F051F1E67D100F16992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172D0F031F1E67D100F16992 /* LaunchScreen.storyboard */; };
+		172D0F0D1F1E6C3800F16992 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D0F0C1F1E6C3800F16992 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		172D0F011F1E67D100F16992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172D0F041F1E67D100F16992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		172D0F061F1E67D100F16992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172D0F0C1F1E6C3800F16992 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				172D0EF71F1E67D100F16992 /* AppDelegate.swift */,
 				172D0EF91F1E67D100F16992 /* ViewController.swift */,
+				172D0F0C1F1E6C3800F16992 /* Task.swift */,
 				172D0EFB1F1E67D100F16992 /* Main.storyboard */,
 				172D0F011F1E67D100F16992 /* Assets.xcassets */,
 				172D0F031F1E67D100F16992 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172D0F0D1F1E6C3800F16992 /* Task.swift in Sources */,
 				172D0F001F1E67D100F16992 /* DoIt.xcdatamodeld in Sources */,
 				172D0EFA1F1E67D100F16992 /* ViewController.swift in Sources */,
 				172D0EF81F1E67D100F16992 /* AppDelegate.swift in Sources */,
